@@ -22,29 +22,9 @@
 /** TYPOGRAPHY
 ================================================= **/
 
-@font-face {
-	font-family: KievitWeb;
-	src: url(../fonts/KievitWeb.eot);
-	font-weight:  normal;
-}
+ 
 
-@font-face {
-	font-family: KievitWeb;
-	src: url(../fonts/KievitWeb-Bold.eot);
-	font-weight: bold;
-}
-
-@font-face {
-	font-family: KievitWeb;
-	src: url(../fonts/KievitWeb.woff) format("woff");
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: KievitWeb;
-	src: url(../fonts/KievitWeb-Bold.woff) format("woff");
-	font-weight: bold;
-}
+ 
 
 * {
 	margin: 0;
@@ -54,13 +34,13 @@
 
 body {
 	background: #f9f9f9;
-	font-family: 'Helvetica';
+	font-family: 'PingFangSC-Regular, sans-serif';
 	min-width: 1024px;
 }
 
 h1, h2, h3, h4 {
 	color: #302f2e;
-	font-family: KievitWeb;
+	font-family: PingFangSC-Regular, sans-serif;
 }
 
 h1 {
@@ -146,7 +126,7 @@ em {
 header {
 	background: #f9f9f9;
 	border-bottom: solid #ddd 2px;
-	font-family: KievitWeb;
+	font-family: 'PingFangSC-Regular, sans-serif';
 }
 
 header .inner {
@@ -196,7 +176,7 @@ header nav li a {
 
 footer {
 	border-top: solid #ddd 2px;
-	font-family: KievitWeb;
+	font-family: 'PingFangSC-Regular, sans-serif';
 }
 
 footer .inner {
